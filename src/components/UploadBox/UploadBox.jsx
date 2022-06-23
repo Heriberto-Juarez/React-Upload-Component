@@ -9,7 +9,7 @@ const FilesList = ({ files, onRemove }) => {
     return files.map((file, idx) => {
         return (<div className='fl-pvw' key={`img-preview-${idx}`}>
             <ImageFromFile file={file} ></ImageFromFile>
-            <san className='close-preview' onClick={() => onRemove(file)}>&times;</san>
+            <span className='close-preview' onClick={() => onRemove(file)}>&times;</span>
         </div>)
     })
 
