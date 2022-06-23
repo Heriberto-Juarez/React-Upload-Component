@@ -30,7 +30,7 @@ export const UploadBoxProvider = ({ children }) => {
         })
     }
 
-    return <UploadBoxContext.Provider value={{
+    return (<UploadBoxContext.Provider value={{
         isVisible,
         setIsVisible,
         files, 
@@ -47,5 +47,5 @@ export const UploadBoxProvider = ({ children }) => {
         removeFile,
     }}>
         {children}
-    </UploadBoxContext.Provider>
+    </UploadBoxContext.Provider>)
 }
