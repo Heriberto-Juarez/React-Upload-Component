@@ -1,0 +1,28 @@
+{
+  "name": "react-upload-component",
+  "version": "1.0.0",
+  "description": "A react component to upload files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Heriberto-Juarez/React-Upload-Component.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "upload",
+    "uploader",
+    "upload-box",
+    "drag",
+    "drop"
+  ],
+  "author": "Heriberto-Juarez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Heriberto-Juarez/React-Upload-Component/issues"
+  },
+  "homepage": "https://github.com/Heriberto-Juarez/React-Upload-Component#readme"
+}
